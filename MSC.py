@@ -3,7 +3,6 @@ from sklearn import datasets
 from sklearn.metrics import confusion_matrix
 from sklearn.model_selection import train_test_split
 import pandas as pd
-import numpy as np
 from sklearn.feature_extraction.text import CountVectorizer
 from TextRetrieval_1 import engine
 
@@ -51,5 +50,6 @@ while loop:
     # print('pred_label: '+ result[0])
     print('Label: ' + result_1[0] + str(result[0]))
     engine.search(QA, result_1[0])
+
 
 
