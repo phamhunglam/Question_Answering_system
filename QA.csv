@@ -1,0 +1,321 @@
+﻿QA,labels
+Lê Văn Thịnh sinh năm nào?,NAM_SINH
+Quê Lê Văn Thịnh quê ở đâu?,QUE_QUAN
+Mạc Hiển Tích sinh năm nào?,NAM_SINH
+Mạc Hiển Tích mất năm nào?,NAM_MAT
+Quê Mạc Hiển Tích quê ở đâu?,QUE_QUAN
+Mạc Hiển Tích đỗ năm nào?,NAM_DO
+Bùi Quốc Khái sinh năm nào?,NAM_SINH
+Bùi Quốc Khái mất năm nào?,NAM_MAT
+Bùi Quốc Khái đỗ năm nào?,NAM_DO
+Trương Hanh sinh năm nào?,NAM_SINH
+Quê Trương Hanh quê ở đâu?,QUE_QUAN
+Trương Hanh đỗ năm nào?,NAM_DO
+Nguyễn Quan Quang sinh năm nào?,NAM_SINH
+Nguyễn Quan Quang đỗ năm nào?,NAM_DO
+Nguyễn Hiền sinh năm nào?,NAM_SINH
+Nguyễn Hiền mất năm nào?,NAM_MAT
+Nguyễn Hiền đỗ năm nào?,NAM_DO
+Trần Quốc Lặc sinh năm nào?,NAM_SINH
+Quê Trần Quốc Lặc quê ở đâu?,QUE_QUAN
+Trần Quốc Lặc đỗ năm nào?,NAM_DO
+Trương Xán sinh năm nào?,NAM_SINH
+Trương Xán đỗ năm nào?,NAM_DO
+Bạch Liêu sinh năm nào?,NAM_SINH
+Bạch Liêu mất năm nào?,NAM_MAT
+Quê Bạch Liêu quê ở đâu?,QUE_QUAN
+Bạch Liêu đỗ năm nào?,NAM_DO
+Đào Tiêu đỗ năm nào?,NAM_DO
+Trần Tất Văn sinh năm bao nhiêu?,NAM_SINH
+Quê Trần Tất Văn quê ở đâu?,QUE_QUAN
+Nguyễn Thiến sinh năm bao nhiêu?,NAM_SINH
+Nguyễn Thiến mất năm bao nhiêu?,NAM_MAT
+Quê Nguyễn Thiến quê ở đâu?,QUE_QUAN
+Nguyễn Thiến đỗ năm nào?,NAM_DO
+Nguyễn Bỉnh Khiêm sinh năm bao nhiêu?,NAM_SINH
+Quê quán Nguyễn Bỉnh Khiêm quê ở đâu?,QUE_QUAN
+Giáp Hải sinh năm bao nhiêu?,NAM_SINH
+Giáp Hải mất năm bao nhiêu?,NAM_MAT
+Quê Giáp Hải quê ở đâu?,QUE_QUAN
+Dương Phúc Tư sinh năm bao nhiêu?,NAM_SINH
+Quê quán Dương Phúc Tư quê ở đâu?,QUE_QUAN
+Dương Phúc Tư đỗ năm nào?,NAM_DO
+Trần Văn Bảo sinh năm bao nhiêu?,NAM_SINH
+Quê Trần Văn Bảo quê ở đâu?,QUE_QUAN
+Trần Văn Bảo đỗ năm nào?,NAM_DO
+Nguyễn Lượng Thái sinh năm bao nhiêu?,NAM_SINH
+Nguyễn Lượng Thái mất năm bao nhiêu?,NAM_MAT
+Quê Nguyễn Lượng Thái quê ở đâu?,QUE_QUAN
+Nguyễn Lượng Thái đỗ năm nào?,NAM_DO
+Vũ Giới sinh năm bao nhiêu?,NAM_SINH
+Vũ Giới mất năm bao nhiêu?,NAM_MAT
+Quê quán Vũ Giới quê ở đâu?,QUE_QUAN
+Vũ Giới đỗ năm nào?,NAM_DO
+Nguyễn Quốc Trinh sinh năm bao nhiêu?,NAM_SINH
+Nguyễn Quốc Trinh mất năm bao nhiêu?,NAM_MAT
+Quê Nguyễn Quốc Trinh quê ở đâu?,QUE_QUAN
+Nguyễn Quốc Trinh đỗ năm nào?,NAM_DO
+Đặng Công Chất sinh năm bao nhiêu?,NAM_SINH
+Quê quán Đặng Công Chất quê ở đâu?,QUE_QUAN
+Đặng Công Chất đỗ năm nào?,NAM_DO
+Nguyễn Đăng Đạo sinh năm bao nhiêu?,NAM_SINH
+Nguyễn Đăng Đạo mất năm bao nhiêu?,NAM_MAT
+Quê quán Nguyễn Đăng Đạo quê ở đâu?,QUE_QUAN
+Nguyễn Đăng Đạo đỗ năm nào?,NAM_DO
+Đào Sư Tích sinh năm nào?,NAM_SINH
+Đào Sư Tích mất năm nào?,NAM_MAT
+Đào Sư Tích quê ở đâu?,QUE_QUAN
+Đào Sư Tích đỗ năm nào?,NAM_DO
+Lưu Thúc Kiệm sinh năm nào?,NAM_SINH
+Lưu Thúc Kiệm mất năm nào?,NAM_MAT
+Lưu Thúc Kiệm quê ở đâu?,QUE_QUAN
+Lưu Thúc Kiệm đỗ năm nào?,NAM_DO
+Nguyễn Trực sinh nằm nào?,NAM_SINH
+Nguyễn Trực mất năm nào?,NAM_MAT
+Nguyễn Trực quê ở đâu?,QUE_QUAN
+Nguyễn Nghiêu Tư sinh năm nào?,NAM_SINH
+Nguyên Nghiêu Tư mất năm nào?,NAM_MAT
+Nguyễn Nghiêu Tư quê ở đâu?,QUE_QUAN
+Nguyễn Nghiêu Tư đỗ năm nào?,NAM_DO
+Lương Thế Vinh sinh năm nào?,NAM_SINH
+Lương Thế Vinh mất năm nào?,NAM_MAT
+Lương Thế Vinh quê ở đâu?,QUE_QUAN
+Lương Thế Vinh đỗ năm nào?,NAM_DO
+Vũ Kiệt sinh năm nào?,NAM_SINH
+Vũ Kiệt quê ở đâu?,QUE_QUAN
+Vũ Kiệt đỗ năm nào?,NAM_DO
+Phạm Đôn Lễ sinh năm nào?,NAM_SINH
+Phạm Đôn Lế quê ở đâu?,QUE_QUAN
+Vũ Duệ mất năm nào?,NAM_MAT
+Vũ Duệ quê ở đâu?,QUE_QUAN
+Lê Ích Mộc sinh năm nào?,NAM_SINH
+Lê Ích Mộc mất năm nào?,NAM_MAT
+Lê Ích Mộc quê ở đâu?,QUE_QUAN
+Lê Ích Mộc đỗ năm nào?,NAM_DO
+Hoàng Nghĩa Phú sinh năm nào?,NAM_SINH
+Hoàng Nghĩa Phú quê ở đâu?,QUE_QUAN
+Hoàng Nghĩa Phú đỗ năm nào?,NAM_DO
+Nguyễn Đức Lượng sinh năm nào?,NAM_SINH
+Nguyễn Đức Lượng quê ở đâu?,QUE_QUAN
+Nguyễn Đức Lượng đỗ năm nào?,NAM_DO
+Lưu Danh Công sinh năm nào?,NAM_SINH
+Lưu Danh Công mất năm nào?,NAM_MAT
+Quê Lưu Danh Công ở đâu?,QUE_QUAN
+Lưu Danh Công đỗ năm nào?,NAM_DO
+Nguyễn Xuân Chính sinh năm nào?,NAM_SINH
+Nguyễn Xuân Chính mất năm nào?,NAM_MAT
+Quê Nguyễn Xuân Chính ở đâu?,QUE_QUAN
+Nguyễn Xuân Chính đỗ năm nào?,NAM_DO
+Phạm Quang Tiến sinh năm nào?,NAM_SINH
+Phạm Quang Tiến mất năm nào?,NAM_MAT
+Quê Phạm Quang Tiến ở đâu?,QUE_QUAN
+Phạm Quang Tiến đỗ năm nào?,NAM_DO
+Phạm Duy Quyết sinh năm nào?,NAM_SINH
+Phạm Duy Quyết mất năm nào?,NAM_MAT
+Quê Phạm Duy Quyết ở đâu?,QUE_QUAN
+Phạm Duy Quyết đỗ năm nào?,NAM_DO
+Đặng Thì Thố sinh năm nào?,NAM_SINH
+Đặng Thì Thố mất năm nào?,NAM_MAT
+Quê Đặng Thì Thố ở đâu?,QUE_QUAN
+Đặng Thì Thố đỗ năm nào?,NAM_DO
+Phạm Trấn sinh năm nào?,NAM_SINH
+Phạm Trấn mất năm nào?,NAM_MAT
+Quê Phạm Trấn ở đâu?,QUE_QUAN
+Phạm Trấn đỗ năm nào?,NAM_DO
+Nguyễn Kỳ sinh năm nào?,NAM_SINH
+Nguyễn Kỳ mất năm nào?,NAM_MAT
+Quê Nguyễn Kỳ ở đâu?,QUE_QUAN
+Nguyễn Kỳ đỗ năm nào?,NAM_DO
+Đỗ Tống sinh năm nào?,NAM_SINH
+Đỗ Tống mất năm nào?,NAM_MAT
+Quê Đỗ Tống ở đâu?,QUE_QUAN
+Đỗ Tống đỗ năm nào?,NAM_DO
+Hoàng Văn Tán sinh năm nào?,NAM_SINH
+Hoàng Văn Tán mất năm nào?,NAM_MAT
+Quê Hoàng Văn Tán ở đâu?,QUE_QUAN
+Hoàng Văn Tán đỗ năm nào?,NAM_DO
+Ngô Miễn Thiệu sinh năm nào?,NAM_SINH
+Ngô Miễn Thiệu mất năm nào?,NAM_MAT
+Quê Ngô Miễn Thiệu ở đâu?,QUE_QUAN
+Ngô Miễn Thiệu đỗ năm nào?,NAM_DO
+Lê Nại sinh năm nào?,NAM_SINH
+Lê Nại mất năm nào?,NAM_MAT
+Quê Lê Nại ở đâu?,QUE_QUAN
+Lê Nại đỗ năm nào?,NAM_DO
+Đỗ Lý Khiêm sinh năm nào?,NAM_SINH
+Đỗ Lý Khiêm mất năm nào?,NAM_MAT
+Quê Đỗ Lý Khiêm ở đâu?,QUE_QUAN
+Đỗ Lý Khiêm đỗ năm nào?,NAM_DO
+Nghiêm Hoản sinh năm nào?,NAM_SINH
+Nghiêm Hoản mất năm nào?,NAM_MAT
+Quê Nghiêm Hoản ở đâu?,QUE_QUAN
+Nghiêm Hoản đỗ năm nào?,NAM_DO
+Trần Sùng Dĩnh sinh năm nào?,NAM_SINH
+Trần Sùng Dĩnh mất năm nào?,NAM_MAT
+Quê Trần Sùng Dĩnh ở đâu?,QUE_QUAN
+Trần Sùng Dĩnh đỗ năm nào?,NAM_DO
+Nguyễn Quang Bật sinh năm nào?,NAM_SINH
+Nguyễn Quang Bật mất năm nào?,NAM_MAT
+Quê Nguyễn Quang Bật ở đâu?,QUE_QUAN
+Nguyễn Quang Bật đỗ năm nào?,NAM_DO
+Vũ Tuấn Chiêu sinh năm nào?,NAM_SINH
+Vũ Tuấn Chiêu mất năm nào?,NAM_MAT
+Quê Vũ Tuấn Chiêu ở đâu?,QUE_QUAN
+Vũ Tuấn Chiêu đỗ năm nào?,NAM_DO
+Mạc Đĩnh Chi sinh năm nào?,NAM_SINH
+Mạc Đĩnh Chi mất năm nào?,NAM_MAT
+Quê Mạc Đĩnh Chi ở đâu?,QUE_QUAN
+Mạc Đĩnh Chi đỗ năm nào?,NAM_DO
+Lý Đạo Tái sinh năm nào?,NAM_SINH
+Lý Đạo Tái mất năm nào?,NAM_MAT
+Quê Lý Đạo Tái ở đâu?,QUE_QUAN
+Lý Đạo Tái đỗ năm nào?,NAM_DO
+Trần Cố sinh năm nào?,NAM_SINH
+Trần Cố mất năm nào?,NAM_MAT
+Quê Trần Cố ở đâu?,QUE_QUAN
+Trần Cố đỗ năm nào?,NAM_DO
+Lưu Miễn sinh năm nào?,NAM_SINH
+Lưu Miễn mất năm nào?,NAM_MAT
+Quê Lưu Miễn ở đâu?,QUE_QUAN
+Lưu Miễn đỗ năm nào?,NAM_DO
+Nguyễn Công Bình sinh năm nào?,NAM_SINH
+Nguyễn Công Bình mất năm nào?,NAM_MAT
+Quê Nguyễn Công Bình ở đâu?,QUE_QUAN
+Nguyễn Công Bình đỗ năm nào?,NAM_DO
+Phạm Thị Ngọc Anh sinh năm nào?,NAM_SINH
+Nguyễn Thị Hoàng Dung sinh năm nào?,NAM_SINH
+Huỳnh Thị Thúy Duy sinh năm nào?,NAM_SINH
+Trần Thị Cẩm Duyên sinh năm nào?,NAM_SINH
+Nguyễn Thị Hồng Đào sinh năm nào?,NAM_SINH
+Võ Thành Được sinh năm nào?,NAM_SINH
+Nguyễn Thị Ngọc Giàu sinh năm nào?,NAM_SINH
+Trương Thị Giàu sinh năm nào?,NAM_SINH
+Trương Thị Thu Hà sinh năm nào?,NAM_SINH
+Lê Thị Thanh Hằng sinh năm nào?,NAM_SINH
+Lý Thị Diệu Hiền sinh năm nào?,NAM_SINH
+Trần Văn Huy sinh năm nào?,NAM_SINH
+Nguyễn Thị Ngọc Huyền sinh năm nào?,NAM_SINH
+Trần Thị Ngọc Huyền sinh năm nào?,NAM_SINH
+Lưu Nguyệt Hương sinh năm nào?,NAM_SINH
+Lê Thúy Kiều sinh năm nào?,NAM_SINH
+Nguyễn Thị Thúy Lan sinh năm nào?,NAM_SINH
+Trương Thị Mỹ Liên sinh năm nào?,NAM_SINH
+Nguyễn Thị Liền sinh năm nào?,NAM_SINH
+Phạm Thị Liệu sinh năm nào?,NAM_SINH
+Nguyễn Thị Thùy Linh sinh năm nào?,NAM_SINH
+Võ Trúc Linh sinh năm nào?,NAM_SINH
+Trần Thị Hoa Lý sinh năm nào?,NAM_SINH
+Dương Thị Mai sinh năm nào?,NAM_SINH
+Phạm Thị Tuyết Mai sinh năm nào?,NAM_SINH
+Trần Thị Mai sinh năm nào?,NAM_SINH
+Bùi Thị Tiểu Mi sinh năm nào?,NAM_SINH
+Phạm Thị Mừng sinh năm nào?,NAM_SINH
+Neàng Sa My sinh năm nào?,NAM_SINH
+Phạm Thị Ngọc Anh mất năm nào?,NAM_MAT
+Nguyễn Thị Hoàng Dung mất năm nào?,NAM_MAT
+Huỳnh Thị Thúy Duy mất năm nào?,NAM_MAT
+Trần Thị Cẩm Duyên mất năm nào?,NAM_MAT
+Nguyễn Thị Hồng Đào mất năm nào?,NAM_MAT
+Võ Thành Được mất năm nào?,NAM_MAT
+Nguyễn Thị Ngọc Giàu mất năm nào?,NAM_MAT
+Trương Thị Giàu mất năm nào?,NAM_MAT
+Trương Thị Thu Hà mất năm nào?,NAM_MAT
+Lê Thị Thanh Hằng mất năm nào?,NAM_MAT
+Lý Thị Diệu Hiền mất năm nào?,NAM_MAT
+Trần Văn Huy mất năm nào?,NAM_MAT
+Nguyễn Thị Ngọc Huyền mất năm nào?,NAM_MAT
+Trần Thị Ngọc Huyền mất năm nào?,NAM_MAT
+Lưu Nguyệt Hương mất năm nào?,NAM_MAT
+Lê Thúy Kiều mất năm nào?,NAM_MAT
+Nguyễn Thị Thúy Lan mất năm nào?,NAM_MAT
+Trương Thị Mỹ Liên mất năm nào?,NAM_MAT
+Nguyễn Thị Liền mất năm nào?,NAM_MAT
+Phạm Thị Liệu mất năm nào?,NAM_MAT
+Nguyễn Thị Thùy Linh mất năm nào?,NAM_MAT
+Võ Trúc Linh mất năm nào?,NAM_MAT
+Trần Thị Hoa Lý mất năm nào?,NAM_MAT
+Dương Thị Mai mất năm nào?,NAM_MAT
+Phạm Thị Tuyết Mai mất năm nào?,NAM_MAT
+Trần Thị Mai mất năm nào?,NAM_MAT
+Bùi Thị Tiểu Mi mất năm nào?,NAM_MAT
+Phạm Thị Mừng mất năm nào?,NAM_MAT
+Neàng Sa My mất năm nào?,NAM_MAT
+Huỳnh Thị Kim Ngân mất năm nào?,NAM_MAT
+Nguyễn Thị Kim Ngân mất năm nào?,NAM_MAT
+Võ Thị Kim Ngân mất năm nào?,NAM_MAT
+Hồ Thị Xuân Nguyên mất năm nào?,NAM_MAT
+Võ Thụy Thảo Nguyên mất năm nào?,NAM_MAT
+Nguyễn Thị Quỳnh Nhi mất năm nào?,NAM_MAT
+Võ Thị Nhị mất năm nào?,NAM_MAT
+Hà Thị Cẩm Nhung mất năm nào?,NAM_MAT
+Trần Thị Hồng Nhung mất năm nào?,NAM_MAT
+Võ Thị Hoàng Oanh mất năm nào?,NAM_MAT
+Nguyễn Thanh Phong mất năm nào?,NAM_MAT
+Trác Minh Phúc mất năm nào?,NAM_MAT
+Nguyễn Thị Kim Phụng mất năm nào?,NAM_MAT
+Phạm Thị Ngọc Anh quê ở đâu?,QUE_QUAN
+Nguyễn Thị Hoàng Dung quê ở đâu?,QUE_QUAN
+Huỳnh Thị Thúy Duy quê ở đâu?,QUE_QUAN
+Trần Thị Cẩm Duyên quê ở đâu?,QUE_QUAN
+Nguyễn Thị Hồng Đào quê ở đâu?,QUE_QUAN
+Võ Thành Được quê ở đâu?,QUE_QUAN
+Nguyễn Thị Ngọc Giàu quê ở đâu?,QUE_QUAN
+Trương Thị Giàu quê ở đâu?,QUE_QUAN
+Trương Thị Thu Hà quê ở đâu?,QUE_QUAN
+Lê Thị Thanh Hằng quê ở đâu?,QUE_QUAN
+Lý Thị Diệu Hiền quê ở đâu?,QUE_QUAN
+Trần Văn Huy quê ở đâu?,QUE_QUAN
+Nguyễn Thị Ngọc Huyền quê ở đâu?,QUE_QUAN
+Trần Thị Ngọc Huyền quê ở đâu?,QUE_QUAN
+Lưu Nguyệt Hương quê ở đâu?,QUE_QUAN
+Lê Thúy Kiều quê ở đâu?,QUE_QUAN
+Nguyễn Thị Thúy Lan quê ở đâu?,QUE_QUAN
+Trương Thị Mỹ Liên quê ở đâu?,QUE_QUAN
+Nguyễn Thị Liền quê ở đâu?,QUE_QUAN
+Phạm Thị Liệu quê ở đâu?,QUE_QUAN
+Nguyễn Thị Thùy Linh quê ở đâu?,QUE_QUAN
+Võ Trúc Linh quê ở đâu?,QUE_QUAN
+Trần Thị Hoa Lý quê ở đâu?,QUE_QUAN
+Dương Thị Mai quê ở đâu?,QUE_QUAN
+Phạm Thị Tuyết Mai quê ở đâu?,QUE_QUAN
+Trần Thị Mai quê ở đâu?,QUE_QUAN
+Bùi Thị Tiểu Mi quê ở đâu?,QUE_QUAN
+Phạm Thị Mừng quê ở đâu?,QUE_QUAN
+Neàng Sa My quê ở đâu?,QUE_QUAN
+Huỳnh Thị Kim Ngân quê ở đâu?,QUE_QUAN
+Nguyễn Thị Kim Ngân quê ở đâu?,QUE_QUAN
+Võ Thị Kim Ngân quê ở đâu?,QUE_QUAN
+Phạm Thị Ngọc Anh đỗ năm nào?,NAM_DO
+Nguyễn Thị Hoàng Dung đỗ năm nào?,NAM_DO
+Huỳnh Thị Thúy Duy đỗ năm nào?,NAM_DO
+Trần Thị Cẩm Duyên đỗ năm nào?,NAM_DO
+Nguyễn Thị Hồng Đào đỗ năm nào?,NAM_DO
+Võ Thành Được đỗ năm nào?,NAM_DO
+Nguyễn Thị Ngọc Giàu đỗ năm nào?,NAM_DO
+Trương Thị Giàu đỗ năm nào?,NAM_DO
+Trương Thị Thu Hà đỗ năm nào?,NAM_DO
+Lê Thị Thanh Hằng đỗ năm nào?,NAM_DO
+Lý Thị Diệu Hiền đỗ năm nào?,NAM_DO
+Trần Văn Huy đỗ năm nào?,NAM_DO
+Nguyễn Thị Ngọc Huyền đỗ năm nào?,NAM_DO
+Trần Thị Ngọc Huyền đỗ năm nào?,NAM_DO
+Lưu Nguyệt Hương đỗ năm nào?,NAM_DO
+Lê Thúy Kiều đỗ năm nào?,NAM_DO
+Nguyễn Thị Thúy Lan đỗ năm nào?,NAM_DO
+Trương Thị Mỹ Liên đỗ năm nào?,NAM_DO
+Nguyễn Thị Liền đỗ năm nào?,NAM_DO
+Phạm Thị Liệu đỗ năm nào?,NAM_DO
+Nguyễn Thị Thùy Linh đỗ năm nào?,NAM_DO
+Võ Trúc Linh đỗ năm nào?,NAM_DO
+Trần Thị Hoa Lý đỗ năm nào?,NAM_DO
+Dương Thị Mai đỗ năm nào?,NAM_DO
+Phạm Thị Tuyết Mai đỗ năm nào?,NAM_DO
+Trần Thị Mai đỗ năm nào?,NAM_DO
+Bùi Thị Tiểu Mi đỗ năm nào?,NAM_DO
+Phạm Thị Mừng đỗ năm nào?,NAM_DO
+Neàng Sa My đỗ năm nào?,NAM_DO
+Huỳnh Thị Kim Ngân đỗ năm nào?,NAM_DO
+Nguyễn Thị Kim Ngân đỗ năm nào?,NAM_DO
+Võ Thị Kim Ngân đỗ năm nào?,NAM_DO
+Hồ Thị Xuân Nguyên đỗ năm nào?,NAM_DO
+Võ Thụy Thảo Nguyên đỗ năm nào?,NAM_DO
