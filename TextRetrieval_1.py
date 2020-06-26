@@ -48,7 +48,7 @@ class IR:
         self.searcher = IndexSearcher(reader)
         self.queryparser = QueryParser("noidung", self.analyzer)
     
-    def search(self, strQry):
+    def search(self, strQry, label):
         query = self.queryparser.parse(strQry)
         hits = self.searcher.search(query, self.MAX)
         print(len(hits.scoreDocs), "Result of " + strQry)
@@ -58,17 +58,17 @@ class IR:
 #			doc = self.searcher.doc(hit.doc)
 #			print(doc.get("noidung"))
 #			print("============================================")
-        print('Top 1 result from doc: ' + str(hits.scoreDocs[0].doc))
+        print('Top 1 result from doc: ' + str(hits.scoreDocs[0].doc) + ' with score: ' + str(hits.scoreDocs[0].score))
         doc_1 = self.searcher.doc(hits.scoreDocs[0].doc)
-        QA.Question_Extraction(strQry,doc_1.get("noidung"))
+        QA.Question_Extraction(label,doc_1.get("noidung"))
 
         
 class QA:
     def Question_Extraction(qa, doc):
-        if(re.search("sinh năm", qa)):
+        if(qa == 'NAM_SINH'):
             result = re.findall(r'[0-9]{4}', doc)
             print(result[0])
-        elif(re.search("mất năm", qa)):
+        elif(qa == 'NAM_MAT'):
             if(re.search("mất",doc)):
                 rs_1 = re.findall(r'mất+[^.!?]*[0-9][^\s\.\,]*',doc)
                 rs_2 = re.findall(r'[0-9]{4}',rs_1[0])
@@ -76,11 +76,11 @@ class QA:
             else:
                 result = re.findall(r'[0-9]{4}', doc)
                 print(result[1])
-        elif(re.search("ở đâu",qa)):
+        elif(qa == 'QUE_QUAN'):
             result_1 = re.search(r'tỉnh+[^.!?]*[A-Z][^\s\.\,\)\(]*',doc)
             result_2 = re.search(r'[A-ZĐ]+[^\s\.\,]*\s+([A-ZĐ]+[^\s\,\.\(\)]*\s*)*',result_1.group())
             print(result_2.group())
-        elif(re.search('đổ năm',qa)):
+        elif(qa == 'NAM_DO'):
             result_1 = re.search(r'[\.]+[^.!?]*thứ +[0-9][^\s\.\,\)\(]*',doc)
             result_2 = re.search(r"[A-ZĐỨ]+[^\s\.\,]*\s+([A-ZĐỨ]+[^\s\,\.\(\)]*\s*)* +thứ +[0-9][^\s\.\,\)\(]*",result_1.group())
             print(result_2.group())
@@ -95,8 +95,7 @@ lucene.initVM()
 engine = IR("index")
 engine.index("Data")
 engine.openIndex()
-question = input('Question: ')
-engine.search(question)
+
 
     
 

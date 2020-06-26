@@ -5,6 +5,9 @@ from sklearn.model_selection import train_test_split
 import pandas as pd
 import numpy as np
 from sklearn.feature_extraction.text import CountVectorizer
+from TextRetrieval_1 import engine
+
+
 
 # loading the iris dataset
 # iris = datasets.load_iris()
@@ -35,12 +38,18 @@ accuracy = clfrNB.score(vect.transform(X_test), y_test)
 # print(cm)
 # test = clfrNB.predict(vect.transform(X_test[0]))
 # print(test)
-qestion = 'Lưu Danh Công đỗ năm nào?'
 # result = clfrNB.predict(vect.transform([qestion]))
-result = clfrNB.predict_proba(vect.transform([qestion]))
-# result = result*100
-# result = pd.DataFrame(result)
+loop = True
+while loop:
+    QA = input('Hãy nhập câu hỏi: ')
+    qestion = vect.transform([QA])
+    result = clfrNB.predict_proba(qestion)
+    result = result * 100
+    result = pd.DataFrame(result)
+    result_1 = clfrNB.predict(qestion)
+    # print(qestion)
+    # print('pred_label: '+ result[0])
+    print('Label: ' + result_1[0] + str(result[0]))
+    engine.search(QA, result_1[0])
 
-# print(qestion)
-# print('pred_label: '+ result[0])
-print(result)
+
