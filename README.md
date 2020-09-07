@@ -2,8 +2,8 @@
   System pineline: Question classification, Information Retrieval and Answer extraction
 ![pineline](image/pineline.png)
 ## Question classification:
-  Navie Bayes from scikit-learn with ~300 questions to train.
-  Accuracy: ~83.3%
+  Navie Bayes from scikit-learn for train the model with ~300 question labeled.
+  Accuracy: ~95.3% (test set)
   
 ![confusion_matrix](image/confusion_matrix.jpg)
 ## Information Retrieval:
