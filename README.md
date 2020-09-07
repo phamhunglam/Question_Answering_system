@@ -1,13 +1,11 @@
 # Question Answering system for "Trạng Nguyên" in VietNam
-  System pineline: Question classification, Information Retrieval and Answer extraction
-![pineline](image/pineline.png)
+  *System pineline: Question classification, Information Retrieval and Answer extraction
+*![pineline](image/pineline.png)
 ## Question classification:
-  Navie Bayes from scikit-learn for train the model with ~300 question labeled.
-  
-  Accuracy: ~95.3% (test set)
-  
-![confusion_matrix](image/confusion_matrix.jpg)
+  *Navie Bayes from scikit-learn for train the model with ~600 questions labeled.
+  *Accuracy: ~95.3% (test set)
+*![confusion_matrix](image/confusion_matrix.jpg)
 ## Information Retrieval:
-  From question, with Lucene libary to caculate distance score between the document from data and the question.  
+  *From question, with Lucene libary to caculate distance score between the document from data and the question.  
 ## Answer Extraction:
-  Regular Expression with basic keywords to extract the answer from the document.    .
+  *Regular Expression with basic keywords to extract the answer from the document.    .
