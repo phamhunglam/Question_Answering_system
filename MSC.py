@@ -4,7 +4,7 @@ from sklearn.metrics import confusion_matrix
 from sklearn.model_selection import train_test_split
 import pandas as pd
 from sklearn.feature_extraction.text import CountVectorizer
-from TextRetrieval_1 import engine
+# from TextRetrieval_1 import engine
 
 
 
@@ -30,26 +30,26 @@ clfrNB.fit(X_train_vectorized, y_train)
 preds = clfrNB.predict(vect.transform(X_test))
 # accuracy on X_test
 accuracy = clfrNB.score(vect.transform(X_test), y_test)
-# print("accuracy: "+ str(accuracy))
-#
-# # creating a confusion matrix
-# cm = confusion_matrix(y_test, preds)
-# print(cm)
+print("accuracy: "+ str(accuracy))
+
+# creating a confusion matrix
+cm = confusion_matrix(y_test, preds)
+print(cm)
 # test = clfrNB.predict(vect.transform(X_test[0]))
 # print(test)
 # result = clfrNB.predict(vect.transform([qestion]))
-loop = True
-while loop:
-    QA = input('Hãy nhập câu hỏi: ')
-    qestion = vect.transform([QA])
-    result = clfrNB.predict_proba(qestion)
-    result = result * 100
-    result = pd.DataFrame(result)
-    result_1 = clfrNB.predict(qestion)
-    # print(qestion)
-    # print('pred_label: '+ result[0])
-    print('Label: ' + result_1[0] + str(result[0]))
-    engine.search(QA, result_1[0])
+# loop = True
+# while loop:
+#     QA = input('Hãy nhập câu hỏi: ')
+#     qestion = vect.transform([QA])
+#     result = clfrNB.predict_proba(qestion)
+#     result = result * 100
+#     result = pd.DataFrame(result)
+#     result_1 = clfrNB.predict(qestion)
+#     # print(qestion)
+#     # print('pred_label: '+ result[0])
+#     print('Label: ' + result_1[0] + str(result[0]))
+#     engine.search(QA, result_1[0])
 
 
 

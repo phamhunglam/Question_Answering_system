@@ -1,20 +1,15 @@
 import sys
 import glob
 import lucene
-import re
-
+from Text_Extractor import QA
 from java.nio.file import Path, Paths
 from org.apache.lucene.analysis.standard import StandardAnalyzer
 from org.apache.lucene.document import Document, Field, StoredField, StringField, TextField
-
 from org.apache.lucene.index import IndexOptions, IndexWriter, IndexWriterConfig, DirectoryReader
-
 from org.apache.lucene.search import IndexSearcher
 from org.apache.lucene.index import IndexReader
-
 from org.apache.lucene.queryparser.classic import QueryParser
 from org.apache.lucene.store import SimpleFSDirectory
-
 
 class IR:
     directory = None
@@ -53,41 +48,16 @@ class IR:
         hits = self.searcher.search(query, self.MAX)
         print(len(hits.scoreDocs), "Result of " + strQry)
 
-#		for hit in hits.scoreDocs:
-#			print(hit.score, hit.doc, hit.toString())
-#			doc = self.searcher.doc(hit.doc)
-#			print(doc.get("noidung"))
-#			print("============================================")
+		# for hit in hits.scoreDocs: 
+		# 	print(hit.score, hit.doc, hit.toString())
+		# 	doc = self.searcher.doc(hit.doc)
+		# 	print(doc.get("noidung"))
+		# 	print("============================================")
+        #doc = self.searcher.doc(hits.scoreDocs[0].doc)
+        #print(doc.get("noidung"))
         print('Top 1 result from doc: ' + str(hits.scoreDocs[0].doc) + ' with score: ' + str(hits.scoreDocs[0].score))
         doc_1 = self.searcher.doc(hits.scoreDocs[0].doc)
         QA.Question_Extraction(label,doc_1.get("noidung"))
-
-        
-class QA:
-    def Question_Extraction(qa, doc):
-        if(qa == 'NAM_SINH'):
-            result = re.findall(r'[0-9]{4}', doc)
-            print(result[0])
-        elif(qa == 'NAM_MAT'):
-            if(re.search("mất",doc)):
-                rs_1 = re.findall(r'mất+[^.!?]*[0-9][^\s\.\,]*',doc)
-                rs_2 = re.findall(r'[0-9]{4}',rs_1[0])
-                print(rs_2[0])
-            else:
-                result = re.findall(r'[0-9]{4}', doc)
-                print(result[1])
-        elif(qa == 'QUE_QUAN'):
-            result_1 = re.search(r'tỉnh+[^.!?]*[A-Z][^\s\.\,\)\(]*',doc)
-            result_2 = re.search(r'[A-ZĐ]+[^\s\.\,]*\s+([A-ZĐ]+[^\s\,\.\(\)]*\s*)*',result_1.group())
-            print(result_2.group())
-        elif(qa == 'NAM_DO'):
-            result_1 = re.search(r'[\.]+[^.!?]*thứ +[0-9][^\s\.\,\)\(]*',doc)
-            result_2 = re.search(r"[A-ZĐỨ]+[^\s\.\,]*\s+([A-ZĐỨ]+[^\s\,\.\(\)]*\s*)* +thứ +[0-9][^\s\.\,\)\(]*",result_1.group())
-            print(result_2.group())
-            
-
-
-
 
 
 
