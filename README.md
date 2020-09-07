@@ -3,6 +3,7 @@
 ![pineline](image/pineline.png)
 ## Question classification:
   Navie Bayes from scikit-learn for train the model with ~300 question labeled.
+  
   Accuracy: ~95.3% (test set)
   
 ![confusion_matrix](image/confusion_matrix.jpg)
