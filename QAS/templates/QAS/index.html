@@ -5,10 +5,17 @@
     </header>
     <body>
         <h1>Question Answering System</h1>
-        
-        <form action="">
-            <input type="text", name="question">
+        <h2>Question:</h2>
+        <form action="" method ="POST">
+            {% csrf_token %}
+            {{form}}
             <input type="submit">
         </form>
+        {% comment %} <ul>
+            {% for question in questions%}
+                <li>{{question}}</li>
+            {% endfor %}
+        </ul> {% endcomment %}
+        <h2>{{questions}}</h2>     
     </body>
 </html>
