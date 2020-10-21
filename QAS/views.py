@@ -3,10 +3,10 @@ from django import forms
 from QAmodel.main import system
 
 class QuestionForm(forms.Form):
-    question = forms.CharField()
+    question = forms.CharField(widget=forms.TextInput(attrs={'class':'special', 'size': '100'}))
 
 questions = ""
-
+labels = ""
 
 
 def index(request):
@@ -14,11 +14,12 @@ def index(request):
         form = QuestionForm(request.POST)
         if form.is_valid():
             question =form.cleaned_data["question"]
-            questions = system(question)
+            questions,labels = system(question)
             print(question)
             return render(request, 'QAS/index.html',{
                 "form":form,
-                "questions":questions
+                "questions":questions,
+                "label": labels
 
             })
         else:

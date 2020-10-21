@@ -1,21 +1,37 @@
 <!DOCTYPE html>
+
 <html lang ='en'>
     <header>
         <title>Question Answering System</title>
+        <style>
+            h1 {
+                text-align: center;
+            }
+            from {
+                align-self: center;
+            }
+            li {
+                font-size: large;
+            }
+        </style>
     </header>
+
     <body>
-        <h1>Question Answering System</h1>
-        <h2>Question:</h2>
-        <form action="" method ="POST">
+        <h1>"Trạng Nguyên" Answering System</h1>
+        <form action="" method ="POST" >
             {% csrf_token %}
-            {{form}}
+            {{form }}
             <input type="submit">
         </form>
-        {% comment %} <ul>
-            {% for question in questions%}
-                <li>{{question}}</li>
-            {% endfor %}
-        </ul> {% endcomment %}
-        <h2>{{questions}}</h2>     
+        <h4>Type of Question:</h4>
+        <ul>
+            <li>{{label}}</li>
+        </ul>
+        <h4>Answer:</h4>
+
+        <ul>
+                <li>{{questions}}</li>
+        </ul> 
+
     </body>
 </html>
