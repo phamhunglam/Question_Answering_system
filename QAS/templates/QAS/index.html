@@ -28,10 +28,14 @@
             <li>{{label}}</li>
         </ul>
         <h4>Answer:</h4>
-
         <ul>
-                <li>{{questions}}</li>
+                <li>{{localanswer}}</li>
         </ul> 
-
+        <h3>===========================</h3>
+        <ul>
+            {% for q_a in questions_ans %}
+                <li>{{q_a}}</li>
+            {% endfor%}
+        </ul>
     </body>
 </html>

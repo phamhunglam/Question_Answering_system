@@ -5,7 +5,7 @@ from QAmodel.main import system
 class QuestionForm(forms.Form):
     question = forms.CharField(widget=forms.TextInput(attrs={'class':'special', 'size': '100'}))
 
-questions = ""
+questions_ans = []
 labels = ""
 
 
@@ -14,18 +14,19 @@ def index(request):
         form = QuestionForm(request.POST)
         if form.is_valid():
             question =form.cleaned_data["question"]
-            questions,labels = system(question)
-            print(question)
+            answer,labels = system(question)
+            questions_ans.append(question + ": " + answer)
             return render(request, 'QAS/index.html',{
                 "form":form,
-                "questions":questions,
-                "label": labels
+                "questions_ans":questions_ans,
+                "label": labels,
+                "localanswer": answer
 
             })
         else:
             return render(request,'QAS/index.html',{
                 "form": form,
-                "questions":questions
+                "questions_ans":questions_ans,
             })
     return render(request, "QAS/index.html",{
         "form": QuestionForm(),
