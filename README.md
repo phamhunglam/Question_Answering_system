@@ -9,3 +9,5 @@
   * Lucene libary to caculate distance score between the document from data and the question.  
 ## Answer Extraction:
   * Regular Expression with basic keywords to extract the answer from the document.    .
+## Basic Web demo:
+* ![demo](image/webdemo.PNG)
